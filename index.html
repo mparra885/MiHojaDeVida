@@ -9,54 +9,77 @@
   <p>Este es mi primer sitio web publicado en Internet </p>
 </body>
 </html>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi Hoja de Vida</title>
+  <title>Mi Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script> <!-- FontAwesome -->
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>Tu Nombre Completo</h1>
-    <p>Profesión | Especialidad</p>
+    <nav>
+      <h2 class="logo">Maria Fernanda Parra</h2>
+      <ul>
+        <li><a href="#inicio" class="active">Inicio</a></li>
+        <li><a href="#sobre-mi">Yo</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section id="perfil">
-    <h2>Perfil</h2>
-    <p>Breve descripción sobre ti, tus intereses y objetivos.</p>
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-texto">
+      <h1>¡Hola! 👋 Soy <span>Maria Fernanda Parra</span></h1>
+      <h3>Soy una estudiante de Ingenieria de Software</h3>
+      <p> Con experiencia en soporte técnico y atención al cliente</p>
+      <div class="social">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+      <a href="#contacto" class="btn">Contáctame</a>
+    </div>
+    <div class="hero-img">
+      <img src="tu-foto.png" alt="Foto personal">
+    </div>
   </section>
 
-  <section id="experiencia">
-    <h2>Experiencia Laboral</h2>
-    <ul>
-      <li><strong>Empresa X</strong> - Cargo (2020 - 2022)</li>
-      <li><strong>Empresa Y</strong> - Cargo (2018 - 2020)</li>
-    </ul>
+  <!-- Sobre mí -->
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Manejo resolución de incidencias,
+soporte remoto, instalación y configuración de software. Actualmente complemento mi experiencia práctica con formación en
+desarrollo de software, con el objetivo de crecer en roles que integren TI, soporte y programación</p>
   </section>
 
-  <section id="educacion">
-    <h2>Educación</h2>
-    <ul>
-      <li>Universidad ABC - Título (2015 - 2020)</li>
-    </ul>
-  </section>
-
+  <!-- Habilidades -->
   <section id="habilidades">
     <h2>Habilidades</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Trabajo en equipo</li>
-    </ul>
+    <p>Soporte técnico (software y redes básicas). SQL Server, .net, fundamentos de JavaScript, C#, angular (typescript). Swagger, Postman, Git/GitHub.
+      Microsoft Excel (avanzado), Word, PowerPoint, Outlook, herramientas de videoconferencia (Zoom, Google Meet, Teams).
+      Documentación de procesos, control de versiones, gestión de incidencias. Comunicación efectiva, orientación al cliente, resolución de problemas, trabajo en equipo y gestión del tiempo.
+</p>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📧 fernandaparra885@gmail.com | 📞 +57 313 306 3392</p>
   </section>
 
   <footer>
-    <p>📧 tuemail@correo.com | 📞 +57 300 000 0000</p>
+    <p>© 2025 Tu Nombre - Portfolio</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
